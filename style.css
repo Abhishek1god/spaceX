@@ -194,7 +194,7 @@ header{
 hero-seciton
 ************ */
 .section-mission:nth-of-type(1){
-    background: url(./img/Homepage_Desktop\ \(1\).webp);
+    background: url(./img/img1.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -203,7 +203,7 @@ hero-seciton
     position: relative;
 }
 .section-mission:nth-of-type(2){
-    background: url(./img/Homepage_Desktop.webp);
+    background: url(./img/img2.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -213,7 +213,7 @@ hero-seciton
 }
 
 .section-mission:nth-of-type(3){
-    background: url(./img/Homepage_Desktop\ \(2\).webp);
+    background: url(./img/img3.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -222,7 +222,7 @@ hero-seciton
     position: relative;
 }
 .section-mission:nth-of-type(4){
-    background: url(./img/S20_Chopstick_Stack_Desktop.webp);
+    background: url(./img/img4.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -231,7 +231,7 @@ hero-seciton
     position: relative;
 }
 .section-mission:nth-of-type(5){
-    background: url(./img/hls-resized-2.webp);
+    background: url(./img/img5.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
