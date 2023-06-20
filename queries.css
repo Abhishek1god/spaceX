@@ -1,0 +1,128 @@
+@media (max-width:1150px){
+    .nav-list{
+        gap: .8rem;
+    }
+    .shop,.nav-items a{
+        font-size: 1.2rem;
+
+    }
+    .heading-md{
+        font-size: 1.8rem;
+    }
+    .heading-xl{
+        font-size: 4rem;
+    }
+}
+.hide{
+    display: none;
+}
+
+/* *******for tablets********** */
+@media (max-width:950px){
+    .hide{
+        display: block;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-right{
+        width: 0rem;
+    }
+    .shop{
+        display: none;
+    }
+    .nav-bar{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .navigation{
+        padding: 1rem 3.2rem 1rem 4.2rem;
+    }
+    .logo img{
+        width: 16rem;
+    }
+    .footer ul{
+     grid-template-rows: 1fr 1fr;
+     grid-template-columns: repeat(7,1fr);
+    }
+    .footer-item{
+        /* font-size: 1rem; */
+        margin: 0px 5px;
+    }
+    .footer-item:nth-of-type(1){
+        grid-column: 1/-1;
+        margin-bottom: 1rem;
+        justify-self: center;
+    }
+    .menu-container{
+        padding:5rem 4.1rem 3.2rem 4.2rem;
+    }
+    .menu-container .menu-items a{
+        font-size: 1.2rem;
+    }
+}
+
+
+/* mobile device */
+
+@media (max-width:750px){
+    .footer ul{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: repeat(6,1fr);
+       }
+       .footer-item{
+        font-size: 1rem;
+       }
+    .footer-item:nth-last-of-type(1){
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+
+
+}
+
+
+@media (max-width:750px){
+    .heading-md{
+        font-size: 1.6rem;
+    }
+    .heading-xl{
+        max-width: 32rem;
+        font-size: 4rem;
+    }
+    .btn{
+        height: 4.8rem;
+        width: 14rem;
+    }
+    .footer ul{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: repeat(5,1fr);
+       }
+    .footer-item:nth-last-of-type(1){
+        grid-column: 2/3;
+        justify-self: center;
+        grid-row: 3/4;
+    }
+    .footer-item:nth-last-of-type(2){
+        grid-column: 3/6;
+        justify-self: center;
+    }
+    .about{
+        bottom: 28%;
+        left: 20px;
+    }
+
+}
+
+@media (max-width:350px){
+    .heading-xl{
+        font-size: 3.4rem;
+        max-width: 29rem;
+    }
+    .about{
+        left: 18px;
+        bottom: 100%;
+    }
+
+}
